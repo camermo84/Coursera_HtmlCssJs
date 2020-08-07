@@ -1,21 +1,26 @@
 * {
     box-sizing: border-box;
-    font-family: ;
+
 }
 body{
     padding: 0px;
     margin: 0px;
 }
+
 h1 {
     text-align: center;
     padding: 0px;
-    margin: 35px 0px 35px 0px;
+    margin: 80px 0px 80px 0px;
+    font-weight: bolder;
+    font-size: 175%;
+
 }
 
 .lorems {
     background-color: #999999;
     text-align: left;
-    margin: 26px 4% 10px 4%;
+    margin: 26px 4% 3px 4%;
+    font-size: 16px;
 }
 .first {
     background-color: #d59898;
@@ -33,9 +38,10 @@ h1 {
 .subtitles {
     text-align: center;
     width: 30%;
-    border-bottom: 3px black solid;
-    border-left: 3px black solid;
+    border-bottom: 1px black solid;
+    border-left: 1px black solid;
     float: right;
+    font-size: 125%;
     font-weight: bolder;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -43,7 +49,7 @@ h1 {
 
 section > div {
 
-    border: 3px black solid;
+    border: 1px black solid;
     float: left;
     background-color: #999999;
     margin: 10px 1.2% 10px 2.2%;
@@ -117,8 +123,10 @@ section > div {
       width: 41.66%;
     }
     .col-md-6 {
-      width: 43.5%;
-      margin-left: 4%;
+      width: 45.6%;
+      margin-left: 2.1%;
+      margin-right: 2%;
+
     }
     .col-md-7 {
       width: 58.33%;
@@ -131,13 +139,15 @@ section > div {
     }
     .col-md-10 {
       width: 83.33%;
+
     }
     .col-md-11 {
       width: 91.66%;
     }
     .col-md-12 {
-      width: 92.4%;
-      margin-left: 4%;
+      width: 95.2%;
+      margin-left: 2.2%;
+      margin-right: 2%;
     }
   }
 
@@ -180,8 +190,8 @@ section > div {
       width: 91.66%;
     }
     .col-xs-12 {
-      width: 90%;
+      width: 90.5%;
       margin-bottom: 10px;
-      margin-left: 5%;
+      margin-left: 3.6%;
     }
   }
