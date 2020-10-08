@@ -1,0 +1,182 @@
+
+body {
+    margin: 0px;
+    padding: 0px;
+    border-color: #000000;
+    border-width: 2px;
+    border-radius: 0px;
+  }
+
+
+#header-nav .container-fluid {
+  background-color: #999999;
+}
+
+#header-nav {
+    border-color: #000000;
+    border-width: 2px 2px 2px 2px;
+    border-radius: 0px;
+  }
+
+
+
+#nav-list{
+ margin-top: 0px;
+ margin-bottom: 0px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+    font-family: 'Lucida Sans Unicode', serif;
+    color: #000000;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+  }
+
+.text-center{
+    font-family: 'Lucida Sans Unicode', serif;
+    font-size: 1.9em;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 50px;
+
+  }
+
+li a{
+    background-color:white;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.2em;
+  }
+
+#pollito, #beefsito, #sushisito {
+  background-color: #999999;
+  color: #000000;
+  font-family: 'Lucida Sans Unicode', serif;
+  font-weight: bold;
+  margin-top: 20px;
+  padding: 10px 10px 10px 10px;
+  width: 100%;
+  position: relative;
+}
+
+.row p {
+
+  color: #000000;
+  font-family: 'Lucida Sans Unicode', serif;
+  text-align: justify;
+  
+}
+
+h3{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+
+}
+
+
+/********** Small devices only **********/
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Header */
+
+#header-nav #collapsable-nav{
+  border-top: 0px;
+}
+
+#header-nav li{
+  border-top: 1px solid black;
+}
+
+#header-nav li a{
+color: black;
+font-weight: bold;
+}
+  
+#header-nav button{
+border: 2px solid black;
+background-color: #999999;
+
+}
+    
+#header-nav  button:active{
+border: 2px solid white;
+    
+}
+     
+
+#header-nav  button:hover{
+background-color: #999999;
+}
+
+#header-nav .icon-bar{
+background-color: black;
+
+}
+
+
+#header-nav  button:active .icon-bar{
+background-color: white;
+}
+
+/*main content of the page*/
+#sushisitoPa{
+width: 100%;
+margin-top: 20px;
+}
+
+}
+
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+
+  #header-nav #collapsable-nav{
+    border-top: 0px;
+  }
+
+  #header-nav li a{
+    color: black;
+    font-weight: bold;
+      }
+
+#header-nav li{
+border-top: 2px solid black;
+}
+
+  
+#header-nav button{
+border: 2px solid black;
+background-color: #999999;
+}
+
+#header-nav  button:active{
+border: 2px solid white;
+    
+    }
+     
+
+#header-nav  button:hover{
+      background-color: #999999;
+            }
+
+#header-nav .icon-bar{
+background-color: black;
+/*transition: background-color 0s 99999999s;*/
+}
+
+
+#header-nav  button:active .icon-bar{
+background-color: white;
+}  
+
+
+
+}
+
+
